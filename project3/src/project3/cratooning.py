@@ -21,9 +21,9 @@ def resize_and_show(image):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-input_image_filename = 'src/natural_face.jpeg'
-output_image_filename = 'src/stylized_image.png'
-file_path = 'face_stylizer.task'
+input_image_filename = r'C:\Users\shell\homweork\project\project3\project3\src\project3\natural_face.jpeg'
+output_image_filename = r'C:\Users\shell\homweork\project\project3\project3\src\project3\natural_style.png'
+file_path = r'C:\Users\shell\homweork\project\project3\project3\face_stylizer.task'
 
 # Load the image
 image = cv2.imread(input_image_filename)
