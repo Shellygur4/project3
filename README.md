@@ -38,27 +38,47 @@ Navigate to the Project Directory:
 ## Ensure the MediaPipe Model (face_stylizer.task) is available at the specified path in the code.
 
 # Usage
+## for identification of cat person face images and adds a smile to them
 
-## For Image Processing
-To apply a cartoon filter to a single image:
+place your input image in the project3\different filter useage\cat_person_mesh\data
 
-Place your input image in the src/project3/ directory.
+run the image processing script :
+
+```project3\different filter useage\cat_person_mesh\main.py```
+
+## For chillike filter
+
+place your input image in the project3\different filter useage\child_filter\data
+
+run the image processing script :
+```project3\different filter useage\Child_Filter\main.py```
+
+## for a cartoon filter to a single image:
+
+place your input image in the project3\different filter useage\image_to_cartoon_image\data
+
 Run the image processing script:
 
-```python project3\src\project3\cratooning.py```
+```project3\different filter useage\image_to_cartoon_image\main.py```
 
-For Video Processing
-To process a video and generate cartoon images at specified intervals:
+## For Video to cartoon frames
+place your input image in the project3\different filter useage\video_to_cartoon_frames\data
 
-Place your video file in the src/project3/ directory.
 Run the video processing script:
 
-```python src/project3/video_processing.py```
+```project3\different filter useage\video_to_cartoon_frames\main.py```
+
+## For Video to cartoon video
+place your input image in the project3\different filter useage\video_to_cartoon_video\data
+
+Run the video processing script:
+```project3\different filter useage\video_to_cartoon_video\main.py```
+
 
 ## Expected Deliverables
 GitHub Repository: The project's codebase.
-Command Line Interface (CLI): For applying filters to new videos.
-Final Presentation: Output should include side-by-side comparisons of original and filtered videos.
+
+Final Presentation: Output should include filtered videos\images.
 
 ## Potential Impact
 This project has significant implications for enhancing social interaction skills in children with autism. By creating filters that preserve facial expressions, the tool aims to help autistic children recognize and mimic facial expressions, potentially improving their social interaction skills.
