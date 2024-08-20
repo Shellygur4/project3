@@ -38,7 +38,7 @@ Navigate to the Project Directory:
 ## Ensure the MediaPipe Model (face_stylizer.task) is available at the specified path in the code.
 
 # Usage
-## for identification of cat person face images and adds a smile to them
+## For identification of cat person face images and adds a smile to them
 
 place your input image in the project3\different filter useage\cat_person_mesh\data
 
@@ -46,12 +46,17 @@ run the image processing script :
 
 ```project3\different filter useage\cat_person_mesh\main.py```
 
+recieve output image in the project3\different filter useage\cat_person_mesh\output
+
 ## For chillike filter
 
 place your input image in the project3\different filter useage\child_filter\data
 
 run the image processing script :
 ```project3\different filter useage\Child_Filter\main.py```
+
+recieve output image in the project3\different filter useage\child_filter\output
+
 
 ## for a cartoon filter to a single image:
 
@@ -61,19 +66,25 @@ Run the image processing script:
 
 ```project3\different filter useage\image_to_cartoon_image\main.py```
 
+recieve output image in the project3\different filter useage\image_to_cartoon_image\output
+
+
 ## For Video to cartoon frames
-place your input image in the project3\different filter useage\video_to_cartoon_frames\data
+place your input video in the project3\different filter useage\video_to_cartoon_frames\data
 
 Run the video processing script:
 
 ```project3\different filter useage\video_to_cartoon_frames\main.py```
 
+recieve output images in the project3\different filter useage\video_to_cartoon_frames\output
+
 ## For Video to cartoon video
-place your input image in the project3\different filter useage\video_to_cartoon_video\data
+place your input video in the project3\different filter useage\video_to_cartoon_video\data
 
 Run the video processing script:
 ```project3\different filter useage\video_to_cartoon_video\main.py```
 
+recieve output video in the project3\different filter useage\video_to_cartoon_video\output
 
 ## Expected Deliverables
 GitHub Repository: The project's codebase.
